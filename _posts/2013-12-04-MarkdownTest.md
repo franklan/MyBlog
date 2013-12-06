@@ -1,29 +1,31 @@
-## ��ӭʹ�� MarkdownPad 2 ##
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> </head>
 
-**MarkdownPad** �� Windows ƽ̨��һ���������Ƶ� Markdown �༭����
+## 欢迎使用 MarkdownPad 2 ##
 
-### רΪ Markdown ���� ###
+**MarkdownPad** 是 Windows 平台上一个功能完善的 Markdown 编辑器。
 
-�ṩ���﷨�����ͷ���Ŀ�ݼ����ܣ�������õ� Markdown ��д���顣
+### 专为 Markdown 打造 ###
 
-����һ�£�
+提供了语法高亮和方便的快捷键功能，给您最好的 Markdown 编写体验。
 
-- **����** (`Ctrl+B`) and *б��* (`Ctrl+I`)
-- ���� (`Ctrl+Q`)
-- ����� (`Ctrl+K`)
-- ���� 1, 2, 3 (`Ctrl+1`, `Ctrl+2`, `Ctrl+3`)
-- �б� (`Ctrl+U` and `Ctrl+Shift+O`)
+来试一下：
 
-### ʵʱԤ�������������� ###
+- **粗体** (`Ctrl+B`) and *斜体* (`Ctrl+I`)
+- 引用 (`Ctrl+Q`)
+- 代码块 (`Ctrl+K`)
+- 标题 1, 2, 3 (`Ctrl+1`, `Ctrl+2`, `Ctrl+3`)
+- 列表 (`Ctrl+U` and `Ctrl+Shift+O`)
 
-����²����� [�﷨](http://markdownpad.com) �Ƿ���ȷ��ÿ�����û����̣�ʵʱԤ�����ܶ�������׼ȷ���ֳ��ĵ�����ʾЧ����
+### 实时预览，所见即所得 ###
 
-### ���ɶ��� ###
+无需猜测您的 [语法](http://markdownpad.com) 是否正确；每当您敲击键盘，实时预览功能都会立刻准确呈现出文档的显示效果。
+
+### 自由定制 ###
  
-100% ���Զ�������塢��ɫ�����ֺ���ʽ���������Խ� MarkdownPad ���õĵ���Ӧ�֡�
+100% 可自定义的字体、配色、布局和样式，让您可以将 MarkdownPad 配置的得心应手。
 
-### Ϊ�߼��û�����Ƶ��ȶ��� Markdown �༭�� ###
+### 为高级用户而设计的稳定的 Markdown 编辑器 ###
  
- MarkdownPad ֧�ֶ��� Markdown �������棬���� ��׼ Markdown �� Markdown ��չ (��������֧��) �Լ� GitHub ��� Markdown ��
+ MarkdownPad 支持多种 Markdown 解析引擎，包括 标准 Markdown 、 Markdown 扩展 (包括表格支持) 以及 GitHub 风格 Markdown 。
  
- ���˱�ǩʽ���ĵ����桢PDF ���������õ�ͼƬ�ϴ����ߡ��Ự������ƴд��顢�Զ����桢�﷨�����Լ����õ� CSS ������������������������ʹ�� MarkdownPad��
+ 有了标签式多文档界面、PDF 导出、内置的图片上传工具、会话管理、拼写检查、自动保存、语法高亮以及内置的 CSS 管理器，您可以随心所欲地使用 MarkdownPad。
