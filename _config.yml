@@ -1,2 +1,4 @@
 baseurl: /MyBlog
 encoding: utf-8
+markdown: rdiscount
+permalink: /:year/:month/:title/

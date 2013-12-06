@@ -1,0 +1,326 @@
+Configuration file: D:/Github/MyBlog/_config.yml
+            Source: D:/Github/MyBlog
+       Destination: D:/Github/MyBlog/_site
+      Generating... 
+ ___________________________________________________________________________
+| Maruku tells you:
++---------------------------------------------------------------------------
+| REXML cannot parse this block of HTML/XML:
+| |<marukuwrap><table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/LpGBBvarMCvuag8f9lndI9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"><img src="https://lh5.googleusercontent.com/-odSAs_rVv9o/UqHHRDOrdbI/AAAAAAAAAKU/me3i1r-VH8E/s800/1.jpg" height="448" width="726" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">BlogImage</a></td></tr></table></marukuwrap>
+| #<REXML::ParseException: #<RuntimeError: Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:154:in `block in check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `scan'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/attribute.rb:153:in `element='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/element.rb:1103:in `[]='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:35:in `block in parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `each'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:231:in `build'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:43:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `md_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:41:in `parse_text_as_markdown'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_doc.rb:55:in `parse_doc'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/maruku.rb:30:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown.rb:39:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:58:in `transform'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:154:in `do_layout'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/post.rb:259:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:241:in `block in render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `each'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:39:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/command.rb:18:in `process_site'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:23:in `build'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:7:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/bin/jekyll:97:in `block (2 levels) in <top (required)>'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:155:in `run'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:402:in `run_active_command'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:66:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/delegates.rb:11:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/import.rb:10:in `block in <top (required)>'
+| ...
+| Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite"
+| Line: 1
+| Position: 531
+| Last 80 unconsumed characters:
+| >
++---------------------------------------------------------------------------
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/errors_management.rb:56:in `maruku_recover'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:97:in `rescue in md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:85:in `md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+\___________________________________________________________________________
+
+ ___________________________________________________________________________
+| Maruku tells you:
++---------------------------------------------------------------------------
+| REXML cannot parse this block of HTML/XML:
+| |<marukuwrap><table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/Ywm0Jx2aGRZARFbnNe-Y6tMTjNZETYmyPJy0liipFm0?feat=embedwebsite"><img src="https://lh3.googleusercontent.com/-5U2zqN_69lc/UqHHROGRAFI/AAAAAAAAAKY/D-Uvj-at7zc/s800/3.jpg" height="490" width="586" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">BlogImage</a></td></tr></table></marukuwrap>
+| #<REXML::ParseException: #<RuntimeError: Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:154:in `block in check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `scan'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/attribute.rb:153:in `element='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/element.rb:1103:in `[]='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:35:in `block in parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `each'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:231:in `build'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:43:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `md_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:41:in `parse_text_as_markdown'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_doc.rb:55:in `parse_doc'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/maruku.rb:30:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown.rb:39:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:58:in `transform'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:154:in `do_layout'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/post.rb:259:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:241:in `block in render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `each'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:39:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/command.rb:18:in `process_site'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:23:in `build'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:7:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/bin/jekyll:97:in `block (2 levels) in <top (required)>'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:155:in `run'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:402:in `run_active_command'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:66:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/delegates.rb:11:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/import.rb:10:in `block in <top (required)>'
+| ...
+| Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite"
+| Line: 1
+| Position: 531
+| Last 80 unconsumed characters:
+| >
++---------------------------------------------------------------------------
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/errors_management.rb:56:in `maruku_recover'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:97:in `rescue in md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:85:in `md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+\___________________________________________________________________________
+
+ ___________________________________________________________________________
+| Maruku tells you:
++---------------------------------------------------------------------------
+| REXML cannot parse this block of HTML/XML:
+| |<marukuwrap><table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/9JhXA0bxq5kEfmZiSDTaAtMTjNZETYmyPJy0liipFm0?feat=embedwebsite"><img src="https://lh4.googleusercontent.com/-EHt0mwzbNSw/UqHHSI0GSKI/AAAAAAAAAKs/sS_6HI8291Y/s800/4.jpg" height="484" width="579" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">BlogImage</a></td></tr></table></marukuwrap>
+| #<REXML::ParseException: #<RuntimeError: Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:154:in `block in check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `scan'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/attribute.rb:153:in `element='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/element.rb:1103:in `[]='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:35:in `block in parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `each'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:231:in `build'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:43:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `md_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:41:in `parse_text_as_markdown'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_doc.rb:55:in `parse_doc'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/maruku.rb:30:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown.rb:39:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:58:in `transform'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:154:in `do_layout'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/post.rb:259:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:241:in `block in render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `each'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:39:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/command.rb:18:in `process_site'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:23:in `build'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:7:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/bin/jekyll:97:in `block (2 levels) in <top (required)>'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:155:in `run'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:402:in `run_active_command'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:66:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/delegates.rb:11:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/import.rb:10:in `block in <top (required)>'
+| ...
+| Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite"
+| Line: 1
+| Position: 531
+| Last 80 unconsumed characters:
+| >
++---------------------------------------------------------------------------
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/errors_management.rb:56:in `maruku_recover'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:97:in `rescue in md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:85:in `md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+\___________________________________________________________________________
+
+ ___________________________________________________________________________
+| Maruku tells you:
++---------------------------------------------------------------------------
+| REXML cannot parse this block of HTML/XML:
+| |<marukuwrap><table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/3kHxXO9Sv09myT1tb-dMq9MTjNZETYmyPJy0liipFm0?feat=embedwebsite"><img src="https://lh4.googleusercontent.com/-HP4rlHrh9yo/UqHHSGTyLHI/AAAAAAAAAKo/WtSVzhUbwVw/s640/6.png" height="467" width="640" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">BlogImage</a></td></tr></table></marukuwrap>
+| #<REXML::ParseException: #<RuntimeError: Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:154:in `block in check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `scan'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/attribute.rb:153:in `element='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/element.rb:1103:in `[]='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:35:in `block in parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `each'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:231:in `build'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:43:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `md_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:41:in `parse_text_as_markdown'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_doc.rb:55:in `parse_doc'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/maruku.rb:30:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown.rb:39:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:58:in `transform'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:154:in `do_layout'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/post.rb:259:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:241:in `block in render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `each'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:39:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/command.rb:18:in `process_site'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:23:in `build'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:7:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/bin/jekyll:97:in `block (2 levels) in <top (required)>'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:155:in `run'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:402:in `run_active_command'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:66:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/delegates.rb:11:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/import.rb:10:in `block in <top (required)>'
+| ...
+| Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite"
+| Line: 1
+| Position: 531
+| Last 80 unconsumed characters:
+| >
++---------------------------------------------------------------------------
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/errors_management.rb:56:in `maruku_recover'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:97:in `rescue in md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:85:in `md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+\___________________________________________________________________________
+
+ ___________________________________________________________________________
+| Maruku tells you:
++---------------------------------------------------------------------------
+| REXML cannot parse this block of HTML/XML:
+| |<marukuwrap><table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/CCBHEZic6eSL5hdIDFjA4tMTjNZETYmyPJy0liipFm0?feat=embedwebsite"><img src="https://lh6.googleusercontent.com/-_AWsRSpqE8o/UqHHSC0gnXI/AAAAAAAAAKw/nvgndkyUiIE/s640/5.png" height="462" width="640" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">BlogImage</a></td></tr></table></marukuwrap>
+| #<REXML::ParseException: #<RuntimeError: Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:154:in `block in check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `scan'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/text.rb:152:in `check'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/attribute.rb:153:in `element='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/element.rb:1103:in `[]='
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:35:in `block in parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `each'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/parsers/treeparser.rb:34:in `parse'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:231:in `build'
+| E:/Ruby193/lib/ruby/1.9.1/rexml/document.rb:43:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:93:in `md_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:41:in `parse_text_as_markdown'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_doc.rb:55:in `parse_doc'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/maruku.rb:30:in `initialize'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `new'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown/maruku_parser.rb:44:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/converters/markdown.rb:39:in `convert'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:58:in `transform'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/convertible.rb:154:in `do_layout'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/post.rb:259:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:241:in `block in render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `each'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:240:in `render'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/site.rb:39:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/command.rb:18:in `process_site'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:23:in `build'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/lib/jekyll/commands/build.rb:7:in `process'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-1.3.1/bin/jekyll:97:in `block (2 levels) in <top (required)>'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:180:in `call'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/command.rb:155:in `run'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:402:in `run_active_command'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/runner.rb:66:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/delegates.rb:11:in `run!'
+| E:/Ruby193/lib/ruby/gems/1.9.1/gems/commander-4.1.5/lib/commander/import.rb:10:in `block in <top (required)>'
+| ...
+| Illegal character '&' in raw string "https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite"
+| Line: 1
+| Position: 531
+| Last 80 unconsumed characters:
+| >
++---------------------------------------------------------------------------
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/errors_management.rb:56:in `maruku_recover'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:97:in `rescue in md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/helpers.rb:85:in `md_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:255:in `read_raw_html'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_block.rb:88:in `parse_blocks'
+\___________________________________________________________________________
+
+ ___________________________________________________________________________
+| Maruku tells you:
++---------------------------------------------------------------------------
+| Unclosed span (waiting for ["**"])
+| ---------------------------------------------------------------------------
+| b的使用请参考[grub使用](http://home.51.com/libaofeng1000/diary/item/10043223.html)。EOF
+| ---------------------------------------------------------------------------|
+|                                                                            +--- Byte 238
+| Shown bytes [163 to 75] of 238:
+| >如果启动windows时发现提示：
+| >Filesystem type unknown，paritition type **。这代表分区选择错误，重新确定分区信息，并且修改grub.conf文件中的hd0。
+| >另外修改default的值可以改变win8和RHEL启动的默认顺序，上例中0代表RedHat，1代表win8。
+| >更多grub的使用请参考[grub使用](http://home.51.com/libaofeng1000/diary/item/10043223.html)。
+| 
+| At line 57
+|       text     |Filesystem type unknown，paritition type **。这代表分区选择错误，重新确定分区信息，并且修改grub.conf文件中的hd0。|
+|       text     |另外修改default的值可以改变win8和RHEL启动的默认顺序，上例中0代表RedHat，1代表win8。|
+|       text     |更多grub的使用请参考[grub使用](http://home.51.com/libaofeng1000/diary/item/10043223.html)。|
+| 
+| 
+| Elements read in span: 
+|  -"\u3002\u8FD9\u4EE3\u8868\u5206\u533A\u9009\u62E9\u9519\u8BEF\uFF0C\u91CD\u65B0\u786E\u5B9A\u5206\u533A\u4FE1\u606F\uFF0C\u5E76\u4E14\u4FEE\u6539grub.conf\u6587\u4EF6\u4E2D\u7684hd0\u3002 \u53E6\u5916\u4FEE\u6539default\u7684\u503C\u53EF\u4EE5\u6539\u53D8win8\u548CRHEL\u542F\u52A8\u7684\u9ED8\u8BA4\u987A\u5E8F\uFF0C\u4E0A\u4F8B\u4E2D0\u4EE3\u8868RedHat\uFF0C1\u4EE3\u8868win8\u3002 \u66F4\u591Agrub\u7684\u4F7F\u7528\u8BF7\u53C2\u8003"
+|  -md_im_link(["grub\u4F7F\u7528"], "http://home.51.com/libaofeng1000/diary/item/10043223.html", nil)
+| Current string: 
+|   "\u3002"
++---------------------------------------------------------------------------
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/errors_management.rb:49:in `maruku_error'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_span_better.rb:222:in `read_span'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_span_better.rb:430:in `read_strong'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_span_better.rb:175:in `read_span'
+!E:/Ruby193/lib/ruby/gems/1.9.1/gems/maruku-0.6.1/lib/maruku/input/parse_span_better.rb:46:in `parse_span_better'
+\___________________________________________________________________________
