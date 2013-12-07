@@ -2,3 +2,5 @@ baseurl: /MyBlog
 encoding: utf-8
 markdown: rdiscount
 permalink: /:year/:month/:title/
+url: http://franklan.github.io/MyBlog/
+author: lantianyue
