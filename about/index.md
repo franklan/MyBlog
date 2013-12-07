@@ -4,10 +4,8 @@ layout: page
 comments: yes
 ---
   
-卢克进, 08年毕业于南京理工大学计算机学院.      
-熟练使用常见的计算机语言.      
-目前从事Mac,iOS开发相关工作.      
+兰天岳，14年毕业于北京邮电大学，硕士。
+喜欢C++,广告推荐相关的知识。
 
-个人邮箱:kejinlu@gmail.com      
-新浪微博: [http://weibo.com/kejinlu](http://weibo.com/kejinlu)      
-github : [https://github.com/kejinlu](https://github.com/kejinlu)      
+个人邮箱:lanty1988@gmail.com      
+github : [https://github.com/franklan](https://github.com/franklan)      
