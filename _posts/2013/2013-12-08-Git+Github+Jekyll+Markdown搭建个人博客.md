@@ -20,7 +20,7 @@ Markdown 是一种 Markup Language(标记语言)。它提供给你一种方便�
 
 ### 搭建Github blog过程 ###
 
-创建Githun账号，[Github](https://github.com/)。创建一个名为username.github.io的版本库（username是你的账户名），过10分钟，就会发现在http://username.github.io，博客已经生成了。
+创建Github账号，[Github](https://github.com/)。创建一个名为username.github.io的版本库（username是你的账户名），过10分钟，就会发现在http://username.github.io，博客已经生成了。
 
 下载git for windows。[地址](http://windows.github.com/)
 
