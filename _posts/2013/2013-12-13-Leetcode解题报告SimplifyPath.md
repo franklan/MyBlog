@@ -3,10 +3,9 @@ layout: default
 title: Leetcode解题报告Simplify Path
 ---
 
-# Leetcode解题报告Simplify Path #
 
 ## 题目描述 ##
-### Simplify Path ###
+### Simplify Path（*Diff 3 Freq 1*） ###
 Given an absolute path for a file (Unix-style), simplify it.
 
 For example,
@@ -25,7 +24,8 @@ In this case, you should ignore redundant slashes and return "/home/foo".
 
 刚开始写这道题时一直在尝试使用string.find解析path，解析出的文件夹名字保存到vector中，遇到/..就pop_back,最后一层循环打印即可。但是各种特殊情况让程序的判断增多，程序变得很复杂。后来发现，只要遍历字符，讨论几种情况就可以了。
 
-### 代码 ###
+
+## 代码 ##
 
     
     class Solution {
@@ -67,8 +67,7 @@ In this case, you should ignore redundant slashes and return "/home/foo".
     	}
     };
 
-
-### 结果 ###
+## 结果 ##
 
     252 / 252 test cases passed.
     Status: Accepted
