@@ -5,3 +5,9 @@
 
 最后感谢您的配合。
 
+
+This is lantianyue's blog [lantianyue's Homepage](www.lantianyue.com). The blog is based on Jekyll. Disqus is used for blog comment.
+
+The style of this blog has used [luke的博客](https://github.com/kejinlu/kejinlu.github.com) for references. 
+
+Thank you.
