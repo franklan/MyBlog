@@ -136,3 +136,14 @@ Here is how you can adjust the timeout in the Net::HTTP API:
     http.read_timeout = 500
 
 More Information, pls refer to ['rescue in rbuf_fill': Timeout::Error (Timeout::Error)](http://stackoverflow.com/questions/10011387/rescue-in-rbuf-fill-timeouterror-timeouterror)
+
+## Encoding::UndefinedConversionError: "\xE5" from ASCII-8BIT to UTF-8 ##
+
+将
+
+    str.encode('UTF-8') if str.encoding != 'UTF-8'
+
+改为
+
+    str = str.force_encoding('GBK')
+    str = str.encode('UTF-8')
