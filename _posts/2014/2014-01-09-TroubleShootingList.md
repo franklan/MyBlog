@@ -147,3 +147,15 @@ More Information, pls refer to ['rescue in rbuf_fill': Timeout::Error (Timeout::
 
     str = str.force_encoding('GBK')
     str = str.encode('UTF-8')
+
+
+## Error：formal argument cannot be a constant ##
+
+    def collectInfo(ItemUrl)
+    
+    end
+
+In Ruby, variable names start with lower-case letters and constants
+(including class names) start with upper-case letters.  
+
+As a result, "ItemUrl" must be "itemUrl".
