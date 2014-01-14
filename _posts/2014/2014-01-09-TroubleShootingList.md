@@ -159,3 +159,14 @@ In Ruby, variable names start with lower-case letters and constants
 (including class names) start with upper-case letters.  
 
 As a result, "ItemUrl" must be "itemUrl".
+
+## Error： gsub': invalid byte sequence in GBK (ArgumentError) ##
+
+在文件开头添加代码
+
+    if RUBY_VERSION =~ /1.9/
+      Encoding.default_external = Encoding::UTF_8
+      Encoding.default_internal = Encoding::UTF_8
+    end
+
+吐槽一下：难道Ruby的编码是硬伤？
