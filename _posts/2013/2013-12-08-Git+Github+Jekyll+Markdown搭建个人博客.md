@@ -48,7 +48,7 @@ MarkdownPad2[下载地址](http://markdownpad.com/download.html)。Mac环境请�
 
 MarkdownPad2右侧栏可以即时看到博客的样子。担心博客生成有问题可以安装本地Jekyll环境查看，[详细步骤](http://www.cnblogs.com/purediy/archive/2013/03/07/2948892.html)
 
-使用[Picasa](https://picasaweb.google.com)管理博客的图片，上传图片，然后把图片的link拷贝回MarkdownPad2。如图所示：
+使用[Picasa（要翻墙）](https://picasaweb.google.com)管理博客的图片，上传图片，然后把图片的link拷贝回MarkdownPad2。如图所示：
 
 <table style="width:auto;"><tr><td><a href="https://picasaweb.google.com/lh/photo/zsIQWdz__4AFMem-9EfM1NMTjNZETYmyPJy0liipFm0?feat=embedwebsite"><img src="https://lh6.googleusercontent.com/-w0uLEJcw-j8/UqRYTv9TUXI/AAAAAAAAALU/ipwropfEPOU/s800/picasa.jpg" height="500" width="800" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="https://picasaweb.google.com/107523979648406931368/BlogImage?authuser=0&feat=embedwebsite">BlogImage</a></td></tr></table>
 
