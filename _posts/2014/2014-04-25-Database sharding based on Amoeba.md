@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Database Sharding based on Amoeba
+title: Database sharding based on Amoeba
 ---
 
 ### Requirement: ###
