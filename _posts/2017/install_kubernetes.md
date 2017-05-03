@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Trouble Shooting List For Ruby
+title: Install Kubernetes on rhel7
 ---
 
 
