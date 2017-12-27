@@ -1,8 +1,6 @@
+baseurl: /MyBlog
+encoding: utf-8
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: www.lantianyue.com
+url: http://franklan.github.io/MyBlog/
 author: lantianyue
-pygments: true
-paginate: 24
-baseurl: /
-encoding: utf-8
