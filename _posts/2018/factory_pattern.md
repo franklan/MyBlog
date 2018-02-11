@@ -96,12 +96,63 @@ https://www.zhihu.com/question/24843188/answer/48943088
 工厂设计模式有什么用？ - 兔子先生的回答 - 知乎
 https://www.zhihu.com/question/24843188/answer/29171607
 
-> 最近突然明白。工厂类最大好处让是使用者和对象的创建分离。使用者再也不担心，对象是怎么创建的。用上接口，使用者更不需要知道对象是谁。
+> 最近突然明白。工厂类最大好处让是使用者和对象的创建分离。使用者再也不担心，对象是怎么创建的。用上接口，使用者更不需要知道对象是谁。> 
+
 
 > 还有第二个好处，减少了客户端B的修改.
 如果要扩展concrete product类型，只要在代码包A里再增加ClassA101,....,ClassA200和具体对应的工厂就好了，B则不需要做什么改动.
 如果不用工厂方法，那B里面，修改的会非常多.
 
 **减少客户端代码改动，把数据结构和初始化工作都放在工厂方法模式中，客户端使用修改更方便**
+
+### 举个例子
+语言：Golang
+项目：k8s
+版本：1.1 
+
+https://github.com/kubernetes/kubernetes
+
+简单工厂模式,按照名称AlgorithmProvider来创建具体算法的调度器
+客户端：
+
+```
+/* cmd/kube-scheduler/app/server.go */
+func (s *SchedulerServer) createConfig(configFactory *factory.ConfigFactory) (*scheduler.Config, error) {
+	...
+	_, err := factory.GetAlgorithmProvider(s.AlgorithmProvider)
+	if err != nil {
+		return nil, err
+	}
+	...
+```
+
+工厂类
+
+```
+/* plugin/pkg/scheduler/factory/plugin.go */
+var (
+	schedulerFactoryMutex sync.Mutex
+
+	// maps that hold registered algorithm types
+	fitPredicateMap      = make(map[string]FitPredicateFactory)
+	priorityFunctionMap  = make(map[string]PriorityConfigFactory)
+	algorithmProviderMap = make(map[string]AlgorithmProviderConfig)
+)
+func GetAlgorithmProvider(name string) (*AlgorithmProviderConfig, error) {
+	schedulerFactoryMutex.Lock()
+	defer schedulerFactoryMutex.Unlock()
+
+	var provider AlgorithmProviderConfig
+	provider, ok := algorithmProviderMap[name]
+	if !ok {
+		return nil, fmt.Errorf("plugin %q has not been registered", name)
+	}
+
+	return &provider, nil
+}
+```
+
+
+
 
 
